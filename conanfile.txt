@@ -1,0 +1,9 @@
+[requires]
+boost/1.77.0
+
+[generators]
+cmake
+
+[imports]
+lib, *.lib* ->./bin
+bin, *.dll -> ./bin
